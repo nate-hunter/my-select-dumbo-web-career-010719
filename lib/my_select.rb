@@ -6,7 +6,7 @@
 def my_select (collection)
   if block_given?
     i = 0  
-    # new_collection = []
+    new_collection = []
     
   while i < collection.length 
     yield(collection[i]) # { |var| block })
