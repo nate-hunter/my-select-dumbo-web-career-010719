@@ -6,9 +6,11 @@
 def my_select(collection)
   if block_given?
     i = 0  
-  
-  while i < collection.length 
+    new_collection = []
     
+  while i < collection.length 
+    new_collection << yield(collection[i].select { |var| block }
+    i += 1 
       
   else
     puts "Hey! No block was given!"
