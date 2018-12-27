@@ -9,8 +9,8 @@ def my_select (collection)
     new_collection = []
     
   while i < collection.length 
-    yield(collection[i]) # { |var| block })
-    
+    yield(collection[i]) 
+    new_collection << 
   end
     i += 1 
   collection 
