@@ -10,8 +10,9 @@ def my_select (collection)
     
   while i < collection.length 
     yield(collection[i]) # { |var| block })
-    i += 1 
+    
   end
+    i += 1 
   collection 
       
   else
