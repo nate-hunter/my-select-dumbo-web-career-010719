@@ -9,7 +9,7 @@ def my_select(collection)
     # new_collection = []
     
   while i < collection.length 
-    yield(collection[i].even?) # { |var| block })
+    yield(collection[i]) # { |var| block })
     i += 1 
   end
   collection 
