@@ -13,9 +13,9 @@ def my_select (collection)
     new_collection << collection[i]
   end
     i += 1 
-  collection 
-      
+  
   else
     puts "Hey! No block was given!"
   end
+  new_collection 
 end
