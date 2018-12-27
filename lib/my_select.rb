@@ -4,5 +4,7 @@
 -* How can you ensure your .select method can respond appropriately to being passed an argument of an empty collection?
 
 def my_select(collection)
- # your code here!
+  if block_given?
+    i = 0   
+  end
 end
