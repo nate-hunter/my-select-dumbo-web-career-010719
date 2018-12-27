@@ -12,7 +12,8 @@ def my_select (collection)
     if yield(collection[i]) 
     new_collection << collection[i]
     end
-    i += 1 
+    i += 1
+  end
   
   else
     puts "Hey! No block was given!"
